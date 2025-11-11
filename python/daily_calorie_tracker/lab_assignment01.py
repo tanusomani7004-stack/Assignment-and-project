@@ -21,7 +21,7 @@ s=sum(calorie)
 print("the total calories you eat today is:",s)
 a=s/x
 print("the average of your intake calorie is:",a)
-if p>s:
+if p<s:
     print("\n⚠️ You have exceeded your daily calorie limit!")
 elif p==s:
     print("\n⚠️you are very near to cross your dail limit!")
@@ -31,4 +31,5 @@ for i in range(x):
     print(f"{meal[i]}\t\t{calorie[i]}")
 print("--------------------------------")
 print(f"Total:\t\t{s}")
+
 print(f"Average:\t{a:.2f}")
