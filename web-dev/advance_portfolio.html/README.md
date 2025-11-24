@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Portfolio</title>
+    <style>
+
+body{
+    background-color: white;
+}
+.container {
+    margin: 0;
+    background-color:  rgba(238, 238, 238, 0.988);
+    width:70%;
+    
+}
+header {
+    background-color: #0d61bc;
+    color: white;
+     padding: 20px 40px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h2 {
+    margin: 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 15px;
+}nav a:hover {
+    text-decoration: underline;
+}
+
+
+.image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px; 
+
+}
+
+.img h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.img .highlight {
+    color: #d44227;
+    font-weight: bold;
+}
+
+.img p {
+     margin-top: 10px; 
+}
+
+.image img {
+    width: 230px;
+}
+
+section h2 {
+     margin-left: 5px; 
+}
+
+
+.boxes {
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 20px;
+    /* margin-top: 15px; */
+}
+
+.box {
+    background-color: #0d61bc;
+    color: white;
+    width: 250px;
+    height:150px;
+    /* padding: 20px; */
+    text-align: center;
+    border-radius: 6px;
+
+}
+.box:hover{
+    transform: translate(5px,5px);
+    
+   
+}
+
+
+.project {
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #e0e0e0;
+}
+
+
+.contact form {
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    border-radius: 6px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #0d61bc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #0d61bc;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    
+}
+
+button:hover {
+   background-color: rgb(58, 85, 136);
+
+}
+
+
+footer {
+    background-color: #0d61bc;
+    text-align: center;
+    color: white;
+    padding: 12px;
+    margin-top: 40px;
+}
+
+.back-top {
+    text-align: right;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.back-top a {
+    background-color: #0d61bc;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 90%;
+    }
+    .image {
+        justify-content: center;
+        text-align: center;
+    }
+    .image img {
+        margin-top: 30px;
+    }
+    .boxes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav a {
+        margin: 10px;
+        display: inline-block;
+    }
+    .img h1 {
+        font-size: 35px;
+    }
+    .image {
+        padding: 30px;
+    }
+    .boxes {
+        grid-template-columns: 1fr;
+    }
+    .project {
+        width: 95%;
+    }
+}
+
+
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+    <h2 id="MyProtfolio">My Protfolio</h2> 
+    <nav>
+    <a href="#AboutMe">  About</a>
+    <a href="#Technical Skills">Skills</a>
+    <a href="#My Projects">Projects</a>
+    <a href="#Contact me">Contact</a>  
+    </nav>
+    </header>
+
+    <div class="image">
+        <div class="img">
+            <h1>Hi, I am<br><span class="highlight">Full Stack Developer</span></h1>
+            <p>Building modern web applications with MERN stack.</p>
+        </div>
+        <img src="illustration-cartoon-of-a-cute-girl-standing-and-smiling-while-dressed-in-colorful-and-casual-clothes-vector.jpg" alt="Girl Profile Pic">
+    </div>
+
+    <section  class="about">
+    <h2 id="AboutMe">About Me</h2>
+    <p>Hello! My name is Tannu Somani, and I am currently learning web development. 
+        This is my first portfolio website where I showcase my passion for creating interactive
+        and responsive web pages. I am a student at B.Tech CSE AIML, pursuing my skills in design,
+        coding, and overall development. I love exploring new technologies and improving my
+        knowledge in the field of web development. With a hardworking and consistent mindset,
+        I am determined to grow as a developer and build creative projects that make a real impact.</p>
+    </section>
+ 
+    <section  class="skills">
+    <h2 id="Technical Skills">My Skills</h2>
+
+    <div class="boxes">
+        <div class="box"><h3>HTML</h3><p>Learning</p></div>
+        <div class="box"><h3>CSS</h3><p>Learning</p></div>
+        <div class="box"><h3>JavaScript</h3><p>Learning</p></div>
+    </div>
+</section>
+
+<section  class="projects">
+    <h2 id="My Projects">My Projects</h2>
+
+    <div class="project">
+        <h3>Project 1</h3>
+        <p>A simple HTML & CSS webpage.</p>
+    </div>
+
+    <div class="project">
+        <h3>Project 2</h3>
+        <p>Another awesome mini project.</p>
+    </div>
+</section>
+
+<section class="contact">
+    <h2 id="Contact me">Contact Me</h2>
+
+    <form>
+        <label>Name</label>
+        <input type="text" placeholder="Enter your name">
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Message</label>
+        <textarea rows="4" placeholder="Write your message"></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+
+   <footer>
+    © 2025 Tannu Somani. All rights reserved.
+</footer>
+
+<div class="back-top">
+    <a href="#top">I Back to Top</a>
+</div>
+</div>
+</body>
+</html>
