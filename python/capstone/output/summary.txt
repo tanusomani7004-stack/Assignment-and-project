@@ -1,0 +1,68 @@
+============================================================
+CAMPUS ENERGY CONSUMPTION - EXECUTIVE SUMMARY
+============================================================
+
+TOTAL CAMPUS CONSUMPTION: 74,211.08 kWh
+
+HIGHEST CONSUMING BUILDING:
+  Science_Block: 23,844.34 kWh
+
+PEAK LOAD:
+  Time: 2025-11-26 22:32:24.288601
+  Building: Science_Block
+  Usage: 347.12 kWh
+
+DAILY TRENDS:
+  Average daily consumption: 824.57 kWh
+  Highest daily total: 1024.30 kWh
+  Lowest daily total: 509.84 kWh
+
+WEEKLY TRENDS:
+  Average weekly consumption: 5300.79 kWh
+  Highest weekly total: 6009.70 kWh
+
+BUILDING-BY-BUILDING BREAKDOWN:
+------------------------------------------------------------
+
+--- Report for Admin_Building ---
+Total Readings: 90
+Total Consumption: 7999.21 kWh
+Average Consumption: 88.88 kWh
+Minimum Reading: 50.82 kWh
+Maximum Reading: 119.62 kWh
+
+--- Report for Cafeteria ---
+Total Readings: 90
+Total Consumption: 15835.73 kWh
+Average Consumption: 175.95 kWh
+Minimum Reading: 102.00 kWh
+Maximum Reading: 238.29 kWh
+
+--- Report for Library ---
+Total Readings: 90
+Total Consumption: 12101.48 kWh
+Average Consumption: 134.46 kWh
+Minimum Reading: 75.02 kWh
+Maximum Reading: 179.64 kWh
+
+--- Report for Science_Block ---
+Total Readings: 90
+Total Consumption: 23844.34 kWh
+Average Consumption: 264.94 kWh
+Minimum Reading: 155.72 kWh
+Maximum Reading: 347.12 kWh
+
+--- Report for Sports_Complex ---
+Total Readings: 90
+Total Consumption: 14430.32 kWh
+Average Consumption: 160.34 kWh
+Minimum Reading: 92.31 kWh
+Maximum Reading: 214.02 kWh
+
+============================================================
+RECOMMENDATIONS:
+- Focus energy-saving initiatives on high-consumption buildings
+- Monitor peak usage times for load management
+- Consider renewable energy sources for major consumers
+- Implement automated monitoring systems
+============================================================
